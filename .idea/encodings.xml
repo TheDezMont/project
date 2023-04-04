@@ -5,9 +5,9 @@
     <file url="file://$PROJECT_DIR$/bot/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/link-parser/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/link-parser/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/scrapper/src/main/java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/scrapper/src/main/resources" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/scrapper/src/main/resources/application.properties" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/scrapper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scrapper/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scrapper/src/main/resources/application.properties" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

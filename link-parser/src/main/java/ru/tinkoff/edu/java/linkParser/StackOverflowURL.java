@@ -12,11 +12,11 @@ public class StackOverflowURL extends BaseParser {
             String path = url.getPath();
             if (host.equals("stackoverflow.com") && path.startsWith("/questions/")) {
                 String[] parts = path.split("/");
-                return new String[]{parts[2]};
+                return new String[] { parts[2] };
             }
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
-        return parseNext(link);
+        return new String[]{""};
     }
 }
