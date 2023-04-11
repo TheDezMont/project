@@ -1,12 +1,14 @@
-package ru.tinkoff.edu.java.bot.Controller;
+package ru.tinkoff.edu.java.bot.controller;
 
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import jakarta.validation.Valid;
+import jakarta.validation.constraints.NotNull;
+import org.springframework.core.codec.StringDecoder;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
-import ru.tinkoff.edu.java.bot.DataClass;
-import ru.tinkoff.edu.java.bot.ErrorResponse;
+import ru.tinkoff.edu.java.bot.dto.ErrorResponse;
+import ru.tinkoff.edu.java.bot.dto.User;
 
 @RequestMapping("/updates")
 @RestController
@@ -17,8 +19,8 @@ public class BotController {
 
 
     @PostMapping(consumes = "application/json", produces = "application/json")
-    public DataClass update(@Valid @RequestBody DataClass dataClass) {
-        return new DataClass(dataClass.getId(), dataClass.getUrl(), dataClass.getDescription(), dataClass.getTgChatIds());
+    public User update(@Valid @RequestBody User dataClass) {
+        return new User(dataClass.getId(), dataClass.getUrl(), dataClass.getDescription(), dataClass.getTgChatIds());
     }
 
 

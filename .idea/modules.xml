@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bot/bot.iml" filepath="$PROJECT_DIR$/bot/bot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/link-parser/link-parser.iml" filepath="$PROJECT_DIR$/link-parser/link-parser.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/project.iml" filepath="$PROJECT_DIR$/.idea/project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/link-parser/parser.iml" filepath="$PROJECT_DIR$/link-parser/parser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project.iml" filepath="$PROJECT_DIR$/project.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrapper/scrapper.iml" filepath="$PROJECT_DIR$/scrapper/scrapper.iml" />
     </modules>
   </component>

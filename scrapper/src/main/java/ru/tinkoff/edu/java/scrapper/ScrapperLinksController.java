@@ -1,10 +1,11 @@
 package ru.tinkoff.edu.java.scrapper;
 
-import ru.tinkoff.edu.java.scrapper.dary_prirody.*;
+import ru.tinkoff.edu.java.scrapper.dto.*;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
+import ru.tinkoff.edu.java.scrapper.dto.ListLinksResponse;
 
 import java.net.URI;
 import java.net.URISyntaxException;
