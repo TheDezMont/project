@@ -18,6 +18,7 @@
       <module name="parser" target="17" />
       <module name="project" target="1.5" />
       <module name="scrapper" target="17" />
+      <module name="tinkoff-app" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bot/bot.iml" filepath="$PROJECT_DIR$/bot/bot.iml" />
       <module fileurl="file://$PROJECT_DIR$/link-parser/link-parser.iml" filepath="$PROJECT_DIR$/link-parser/link-parser.iml" />
-      <module fileurl="file://$PROJECT_DIR$/project.iml" filepath="$PROJECT_DIR$/project.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrapper/scrapper.iml" filepath="$PROJECT_DIR$/scrapper/scrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tinkoff-app.iml" filepath="$PROJECT_DIR$/tinkoff-app.iml" />
     </modules>
   </component>
 </project>
